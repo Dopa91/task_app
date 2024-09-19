@@ -8,7 +8,10 @@ class S4522 extends StatelessWidget {
       child: Column(
         children: [
           Text("Hello Andreas"),
-          ElevatedButton(onPressed: null, child: Text("Klick mich")),
+          ElevatedButton(
+            onPressed: null,
+            child: Text("Klick mich"),
+          ),
         ],
       ),
     );
