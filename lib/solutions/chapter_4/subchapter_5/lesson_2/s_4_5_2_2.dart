@@ -4,6 +4,17 @@ class S4522 extends StatelessWidget {
   const S4522({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
+    return const MiStatlessWidget();
+  }
+}
+
+class MiStatlessWidget extends StatelessWidget {
+  const MiStatlessWidget({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context) {
     return const Center(
       child: Column(
         children: [
