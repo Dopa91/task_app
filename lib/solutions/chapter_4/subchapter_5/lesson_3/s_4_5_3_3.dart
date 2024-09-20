@@ -5,8 +5,16 @@ class S4533 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+      color: Colors.blue,
       width: 150,
       height: 150,
+      child: const Column(
+        mainAxisAlignment: MainAxisAlignment.center,
+        children: [
+          Text("App"),
+          Text("Akademie"),
+        ],
+      ),
     );
   }
 }

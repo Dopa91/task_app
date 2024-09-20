@@ -7,12 +7,14 @@ class S4535 extends StatelessWidget {
     return const Column(
       children: [
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ContainerBoxColor(color: Colors.red),
             ContainerBoxColor(color: Colors.green),
           ],
         ),
         Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ContainerBoxColor(color: Colors.blue),
             ContainerBoxColor(color: Colors.yellow)
