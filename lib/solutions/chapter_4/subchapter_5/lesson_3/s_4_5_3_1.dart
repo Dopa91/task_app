@@ -8,7 +8,7 @@ class S4531 extends StatelessWidget {
       children: [
         ContainerBox(color: Colors.blueGrey),
         ContainerBox(color: Colors.blue),
-        ContainerBox(color: Colors.cyan)
+        ContainerBox(color: Colors.cyan),
       ],
     );
   }
